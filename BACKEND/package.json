@@ -15,5 +15,11 @@
     "express": "^4.19.2",
     "mongoose": "^8.5.4",
     "nodemon": "^3.1.4"
-  }
+  },
+  "homepage": "https://kavindu9648.github.io/Availabale",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 }
