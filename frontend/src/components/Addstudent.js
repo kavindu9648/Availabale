@@ -14,7 +14,7 @@ function Addstudent() {
       gender,
     };
     axios
-      .post("http://localhost:8070/student/add", newStudent)
+      .post("http://kavindu9648/git.io/Availabale/student/add", newStudent)
       .then(() => {
         alert("Student Added");
         setName("");
